@@ -12,8 +12,7 @@ Dataset url: https://figshare.com/s/4a007e78f29243531b8c
 
 ### Pre-requisites
 Basic knowledge about Java Development, Springboot and Annotation Development.<br>
-For example, if you use IDE like VScode or Idea, basic java development environment need to be installed such as `Java Extension Pack`, `MAVEN for JAVA`. It should be noted that we use Lombok Annotation and Springboot in code that may depend on extensions `Lombok Annotations Support` and `Spring Boot Tools` for IDE to debug or run.
-
+For example, if you use IDE like VScode or Idea, basic java development environment need to be installed such as `Java Extension Pack`, `MAVEN for JAVA`. It should be noted that we use Lombok Annotation and Springboot in code that may depend on extensions `Lombok Annotations Support` and `Spring Boot Tools` for IDE to debug or run. Besides, LibmagicJnaWrapper depends on libmagic to get file type, please install this library and modify the paths in LibmagicJnaWrapper.java. It can be easily installed using apt/brew command on Linux/MacOS.
 
 ### Build Artifact
 Env:
